@@ -1,0 +1,1173 @@
+{
+    "documents": [
+        {
+            "id": "id__1949",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.58,
+                "neutral": 0.13,
+                "negative": 0.29
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 212,
+                    "text": "Olá, hoje a nossa análise vai fundo em um tema fascinante, como é que a gente pode usar dados sobre pessoas, idade, escolaridade, até personalidade para tentar é prever a chance de consumir uma droga específica. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 42,
+                            "length": 4,
+                            "text": "tema",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 47,
+                            "length": 10,
+                            "text": "fascinante",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 212,
+                    "length": 24,
+                    "text": "O foco hoje é cannabis. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.77,
+                        "neutral": 0.08,
+                        "negative": 0.15
+                    },
+                    "offset": 236,
+                    "length": 38,
+                    "text": "OPA, tema complexo e super relevante? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.79,
+                        "neutral": 0.15,
+                        "negative": 0.06
+                    },
+                    "offset": 274,
+                    "length": 157,
+                    "text": "Pois é, e para guiar essa conversa, a gente está usando uns trechos de um guia conceitual de mestrado que trata justamente dessa previsão de consumo, certo? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 431,
+                    "length": 25,
+                    "text": "A ideia aqui é entender. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.94,
+                        "neutral": 0.06,
+                        "negative": 0
+                    },
+                    "offset": 456,
+                    "length": 111,
+                    "text": "Sabe como construir um sistema inteligente para fazer isso, focando na estratégia e nos dados que a gente tem. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.91,
+                        "negative": 0.01
+                    },
+                    "offset": 567,
+                    "length": 130,
+                    "text": "A pergunta chave é, quais características assim demográficas e de personalidade tem uma ligação mais forte com o uso de cannabis? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.87,
+                        "neutral": 0.12,
+                        "negative": 0.01
+                    },
+                    "offset": 697,
+                    "length": 7,
+                    "text": "Exato. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.97,
+                        "negative": 0.03
+                    },
+                    "offset": 704,
+                    "length": 92,
+                    "text": "E tecnicamente falando, o que a gente está encarando é uma tarefa de classificação binária. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 796,
+                    "length": 23,
+                    "text": "Classificação binária. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 819,
+                    "length": 29,
+                    "text": "O que seria isso na prática? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.39,
+                        "neutral": 0.6,
+                        "negative": 0.01
+                    },
+                    "offset": 848,
+                    "length": 60,
+                    "text": "É basicamente separar todo mundo em 2 grupos bem definidos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.37,
+                        "neutral": 0.45,
+                        "negative": 0.18
+                    },
+                    "offset": 908,
+                    "length": 72,
+                    "text": "De um lado, os não usuários, que seriam pessoas que ou nunca usaram né? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.9,
+                        "negative": 0.09
+                    },
+                    "offset": 980,
+                    "length": 130,
+                    "text": "Que a fonte chama de CL zero ou usaram, mas tipo há mais de uma década OCL, um OK não usuários e o outro o outro são os usuários. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 1110,
+                    "length": 58,
+                    "text": "Aí entra quem usou recentemente ou usa de forma contínua. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 1168,
+                    "length": 58,
+                    "text": "Isso cobre as classes CL 2 até CL 6 do estudo original a. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0
+                    },
+                    "offset": 1226,
+                    "length": 59,
+                    "text": "Meta é conseguir colocar cada pessoa em um desses 2 potes. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1285,
+                    "length": 16,
+                    "text": "Usa ou não usa? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 1301,
+                    "length": 21,
+                    "text": "Basicamente entendi. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.97,
+                        "negative": 0.02
+                    },
+                    "offset": 1322,
+                    "length": 84,
+                    "text": "E pra fazer essa divisão, quais são as pistas as features que o guia menciona usar? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 1406,
+                    "length": 148,
+                    "text": "Olha, são as 12 colunas que vem no conjunto de dados inicial, tem idade, gênero, nível de educação, país, etnia e aí vem a partir da personalidade. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 1554,
+                    "length": 40,
+                    "text": "Ah sim, aqueles schors n score e scorr. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1594,
+                    "length": 108,
+                    "text": "Espera aí, me ajuda a lembrar o que eles medem rapidinho, claro, são traços de personalidade bem estudados. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 1663,
+                            "length": 6,
+                            "text": "traços",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/22/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 1673,
+                            "length": 13,
+                            "text": "personalidade",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/22/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 1687,
+                            "length": 13,
+                            "text": "bem estudados",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.03,
+                        "negative": 0.96
+                    },
+                    "offset": 1702,
+                    "length": 72,
+                    "text": "Whey scor, por exemplo, é ligado ao neuroticismo coisas tipo ansiedade. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.06,
+                        "negative": 0.94
+                    },
+                    "offset": 1774,
+                    "length": 25,
+                    "text": "Instabilidade emocional? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1799,
+                    "length": 232,
+                    "text": "O score mede extroversão o quão sociável a pessoa é, Oo score é abertura a novas experiências tem Oo score de amabilidade tipo o quão cooperativa a pessoa é, certo EOC score que mede conscienciosidade organização, disciplina, sabe? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.33,
+                        "negative": 0.61
+                    },
+                    "offset": 2031,
+                    "length": 96,
+                    "text": "E além desses 5 grandes, o dera 7 ainda traz medidas de impulsividade e de busca por sensações. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.19,
+                        "neutral": 0.72,
+                        "negative": 0.09
+                    },
+                    "offset": 2127,
+                    "length": 32,
+                    "text": "O SS, nossa, que mistura, Hein? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.13,
+                        "neutral": 0.86,
+                        "negative": 0.01
+                    },
+                    "offset": 2159,
+                    "length": 35,
+                    "text": "Os demográficos com personalidade. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 2162,
+                            "length": 12,
+                            "text": "demográficos",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/28/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 2179,
+                            "length": 13,
+                            "text": "personalidade",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.95,
+                        "negative": 0
+                    },
+                    "offset": 2194,
+                    "length": 63,
+                    "text": "E teve uma descoberta importante sobre o formato desses dados. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.95,
+                        "negative": 0.02
+                    },
+                    "offset": 2257,
+                    "length": 66,
+                    "text": "Não é na fase de exploração, sim, exato, isso foi um ponto chave. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.04,
+                        "negative": 0.96
+                    },
+                    "offset": 2323,
+                    "length": 249,
+                    "text": "Na fase 2, o guia ponto, que olha só, todas essas 12 colunas já estavam em formato numérico, como assim numérico tipo gênero não era masculino, feminino não era um número tipo zero, ponto 48, 246 e país também não era Reino Unido era, sei lá, zero. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 2572,
+                    "length": 12,
+                    "text": "Ponto 9682. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.31,
+                        "negative": 0.67
+                    },
+                    "offset": 2584,
+                    "length": 39,
+                    "text": "Tudo número caramba, até país e etnia. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 2623,
+                    "length": 16,
+                    "text": "E isso é comum. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.08,
+                        "neutral": 0.91,
+                        "negative": 0.01
+                    },
+                    "offset": 2639,
+                    "length": 17,
+                    "text": "A fonte explica. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 2656,
+                    "length": 21,
+                    "text": "Porque fizeram isso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.95,
+                        "negative": 0.04
+                    },
+                    "offset": 2677,
+                    "length": 30,
+                    "text": "Será que foi para ananimizar? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.02
+                    },
+                    "offset": 2707,
+                    "length": 7,
+                    "text": "Então? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.45,
+                        "negative": 0.54
+                    },
+                    "offset": 2714,
+                    "length": 60,
+                    "text": "O guia não detalha o motivo exato dessa codificação prévia. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 2774,
+                    "length": 46,
+                    "text": "Pode ser anonimização, pode ser padronização. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.91,
+                        "neutral": 0.09,
+                        "negative": 0.01
+                    },
+                    "offset": 2820,
+                    "length": 53,
+                    "text": "O resultado de como o questionário foi aplicado, né? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 2873,
+                    "length": 47,
+                    "text": "Mas o impacto disso que é discutido na fase 3. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.97,
+                        "negative": 0.02
+                    },
+                    "offset": 2920,
+                    "length": 27,
+                    "text": "E esse é gigante, imagino. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.88,
+                        "negative": 0.05
+                    },
+                    "offset": 2947,
+                    "length": 164,
+                    "text": "Quer dizer então todo aquele trabalho de pré processamento que a gente sempre ouve falar, tipo ter que transformar a categorias como o ensino médio em números, os. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 3111,
+                    "length": 184,
+                    "text": "Talvez usar aquela técnica one hot em coding, exatamente o one hoting coding que cria varias coluninhas de sim não isso e também o ajuste das escalas, o escalonamento ou normalização. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.14,
+                        "negative": 0.85
+                    },
+                    "offset": 3295,
+                    "length": 60,
+                    "text": "Mesma faixa de valores, então nada disso foi preciso, nada. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.84,
+                        "negative": 0.16
+                    },
+                    "offset": 3355,
+                    "length": 55,
+                    "text": "O daita 7 já veio, digamos, mastigado para os modelos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.09,
+                        "neutral": 0.06,
+                        "negative": 0.85
+                    },
+                    "offset": 3410,
+                    "length": 178,
+                    "text": "O trabalho nessa fase ficou bem mais simples, basicamente só checar se faltava algum dado e separar o que a gente usa para prever as pistas OX do que a gente quer prever o alvo. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.63,
+                        "neutral": 0.3,
+                        "negative": 0.07
+                    },
+                    "offset": 3588,
+                    "length": 22,
+                    "text": "OY nossa, que atalho. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 3588,
+                            "length": 2,
+                            "text": "OY",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/49/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 3591,
+                            "length": 5,
+                            "text": "nossa",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.96,
+                        "negative": 0.02
+                    },
+                    "offset": 3610,
+                    "length": 89,
+                    "text": "Mas fico pensando transformar algo como personalidade ou mesmo etnia num número frio se. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 3699,
+                    "length": 77,
+                    "text": "Não se perde um pouco da complexidade humana e no meio é uma ótima reflexão. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 3766,
+                            "length": 8,
+                            "text": "reflexão",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/51/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 3760,
+                            "length": 5,
+                            "text": "ótima",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 3776,
+                    "length": 77,
+                    "text": "É verdade, essa quantificação ajuda muito os algoritmos a achar padrões, né? ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 3792,
+                            "length": 13,
+                            "text": "quantificação",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/52/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 3806,
+                            "length": 5,
+                            "text": "ajuda",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 3853,
+                    "length": 61,
+                    "text": "Mas sempre existe o risco de simplificar demais a realidade. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.94,
+                        "neutral": 0.05,
+                        "negative": 0
+                    },
+                    "offset": 3914,
+                    "length": 98,
+                    "text": "É um equilíbrio delicado entre o que é tecnicamente viável e o que representa fielmente a pessoa. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 4012,
+                    "length": 184,
+                    "text": "Faz todo o sentido bom com os dados já prontinhos, como é que o guia sugere seguir para escolher e treinar os modelos a fase 4, né isso, a recomendação é usar uma técnica bem robusta. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.86,
+                        "negative": 0.11
+                    },
+                    "offset": 4196,
+                    "length": 49,
+                    "text": "A validação cruzada cá *** cafod, como funciona? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 4245,
+                    "length": 76,
+                    "text": "Imagina que você divide seus dados em, digamos, k igual a 10 partes iguais? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 4321,
+                    "length": 48,
+                    "text": "Você vai treinar o modelo 10 vezes em cada vez. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 4369,
+                    "length": 77,
+                    "text": "Você usa 9 partes para treinar e uma parte diferente a cada vez para testar. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 4446,
+                    "length": 54,
+                    "text": "Ah, entendi, roda várias vezes com partes diferentes? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.61,
+                        "neutral": 0.37,
+                        "negative": 0.02
+                    },
+                    "offset": 4500,
+                    "length": 7,
+                    "text": "Exato. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.34,
+                        "neutral": 0,
+                        "negative": 0.66
+                    },
+                    "offset": 4507,
+                    "length": 159,
+                    "text": "Isso dá uma estimativa muito mais confiável do desempenho do modelo do que só dividiu uma vez em treino e teste, evita depender da sorte de uma única divisão. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 4519,
+                            "length": 10,
+                            "text": "estimativa",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/62/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 4541,
+                            "length": 9,
+                            "text": "confiável",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.73,
+                        "neutral": 0.26,
+                        "negative": 0
+                    },
+                    "offset": 4666,
+                    "length": 19,
+                    "text": "Parece bem sólido? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.23,
+                        "neutral": 0.76,
+                        "negative": 0.01
+                    },
+                    "offset": 4685,
+                    "length": 5,
+                    "text": "Sim. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 4690,
+                    "length": 52,
+                    "text": "E quais modelos o guia sugere colocar pra competir? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 4742,
+                    "length": 46,
+                    "text": "Ouvi dizer que tinha uns apelidos engraçados. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.54,
+                        "neutral": 0.45,
+                        "negative": 0
+                    },
+                    "offset": 4788,
+                    "length": 29,
+                    "text": "Tinham são 3 bem conhecidos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 4817,
+                    "length": 33,
+                    "text": "Primeiro, a regressão logística. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.67,
+                        "neutral": 0.33,
+                        "negative": 0.01
+                    },
+                    "offset": 4850,
+                    "length": 47,
+                    "text": "O guia chama de o estatístico cauteloso, haha. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.97,
+                        "negative": 0.02
+                    },
+                    "offset": 4897,
+                    "length": 9,
+                    "text": "Por quê? ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.78,
+                        "neutral": 0.21,
+                        "negative": 0.01
+                    },
+                    "offset": 4906,
+                    "length": 94,
+                    "text": "Porque o método mais tradicional estatístico mesmo e geralmente mais fácil de interpretar o qu",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
